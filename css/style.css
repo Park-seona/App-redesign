@@ -200,6 +200,15 @@ header .header_box ul.phone_img img {
     font-weight: medium;
     color: #fff;
 }
+.over_view .overview_cir {
+    position: absolute;
+    left: 669px;
+    top: 168px;
+    width: 11px;
+    height: 11px;
+    background-color: #9EC4FD;
+    border-radius: 50%;
+}
 .over_view ul.view_txt {
     float: left;
     width: 850px;
@@ -238,6 +247,7 @@ header .header_box ul.phone_img img {
 .over_view .nav_img img {
     width: 233px;
     height: 502px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
 .over_view .home_img {
     position: absolute;
@@ -247,6 +257,7 @@ header .header_box ul.phone_img img {
 .over_view .home_img img {
     width: 233px;
     height: 502px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
 .over_view .main_img {
     position: absolute;
@@ -256,6 +267,7 @@ header .header_box ul.phone_img img {
 .over_view .main_img img {
     width: 233px;
     height: 502px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
 .over_view .login_img {
     position: absolute;
@@ -265,6 +277,7 @@ header .header_box ul.phone_img img {
 .over_view .login_img img {
     width: 233px;
     height: 502px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
 .over_view .graph_img {
     position: absolute;
@@ -274,6 +287,7 @@ header .header_box ul.phone_img img {
 .over_view .graph_img img {
     width: 233px;
     height: 502px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.25));
 }
 .app_color {
     width: 100%;
@@ -316,7 +330,7 @@ header .header_box ul.phone_img img {
 }
 .app_color .chart::after {
     content: '';
-    background: #fff;
+    background: #f1f1f1;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -610,19 +624,19 @@ header .header_box ul.phone_img img {
 }
 .design_con .intro .num {
     position: absolute;
-    left: 867px;
-    top: 398px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 793px;
+    top: 343px;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
 }
 .design_con .intro ul.intro_txt {
     position: absolute;
-    left: 867px;
-    top: 432px;
+    left: 873px;
+    top: 413px;
 }
 .design_con .intro ul.intro_txt li {
-    color: #3F3F3F;
+    color: #505050;
     font-size: 36px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: medium;
@@ -678,18 +692,31 @@ header .header_box ul.phone_img img {
     height: 1924px;
     position: relative;
 }
-/* .design_con .login .num {
+.design_con .login .num {
     position: absolute;
-    left: 526px;
-    top: 369px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 417px;
+    top: 610px;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
-} */
+    z-index: 10;
+}
+.design_con .login ul.login_txt {
+    position: absolute;
+    left: 497px;
+    top: 680px;
+    z-index: 10;
+}
+.design_con .login ul.login_txt li {
+    color: #222222;
+    font-size: 36px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: medium;
+}
 .design_con .login .login_cir {
     position: absolute;
-    left: 456px;
-    top: 667px;
+    left: 1141px;
+    top: 725px;
     width: 15px;
     height: 15px;
     background-color: #9EC4FD;
@@ -698,26 +725,15 @@ header .header_box ul.phone_img img {
 }
 .design_con .login .belog_cir {
     position: absolute;
-    left: 1442px;
-    top: 1293px;
+    left: 1569px;
+    top: 1243px;
     width: 15px;
     height: 15px;
     background-color: #9EC4FD;
     border-radius: 50%;
     z-index: 15;
 }
-.design_con .login ul.login_txt {
-    position: absolute;
-    left: 526px;
-    top: 403px
-}
-.design_con .login ul.login_txt li {
-    color: #3F3F3F;
-    font-size: 36px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: medium;
-}
-.design_con .login ul.login_txt2 {
+/* .design_con .login ul.login_txt2 {
     position: absolute;
     left: 727px;
     top: 680px;
@@ -738,14 +754,14 @@ header .header_box ul.phone_img img {
     color: #000;
     font-size: 15px;
     font-family: 'IBM Plex Sans KR', sans-serif;
-}
+} */
 .design_con .login .background_gray {
     position: absolute;
     left: 0;
     top: 608px;
     width: 1920px;
     height: 770px;
-    background-color: #373737;
+    background-color: #4a4a4a;
     border-radius: 20px;
 }
 .design_con .login .log_phone1 {
@@ -819,7 +835,6 @@ header .header_box ul.phone_img img {
     border-radius: 3px;
     z-index: 3;
 }  
-
 .design_con .login ul.black_img {
     position: absolute;
     left: 773px;
@@ -842,8 +857,8 @@ header .header_box ul.phone_img img {
 }
 .design_con .login ul.login_img {
     position: absolute;
-    left: 283px;
-    top: 776px;
+    left: 960px;
+    top: 780px;
 }
 .design_con .login ul.login_img img {
     border: 2px solid #DADADA;
@@ -862,8 +877,8 @@ header .header_box ul.phone_img img {
 }
 .design_con .login ul.belog_img {
     position: absolute;
-    left: 1262px;
-    top: 493px;
+    left: 1385px;
+    top: 497px;
 }
 .design_con .login ul.belog_img img {
     border: 2px solid #DADADA;
@@ -872,46 +887,46 @@ header .header_box ul.phone_img img {
 }
 .design_con .login .login_ex {
     position: absolute;
-    left: 1287px;
-    top: 1447px;
+    left: 425px;
+    top: 1144px;
 }
 .design_con .login .login_ex li {
-    color: #000;
+    color: #dedede;
     font-size: 15px;
     font-weight: medium;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .design_con .login .belog_ex {
     position: absolute;
-    left: 1287px;
-    top: 1547px;
+    left: 425px;
+    top: 1244px;
 }
 .design_con .login .belog_ex li {
-    color: #000;
+    color: #dedede;
     font-size: 15px;
     font-weight: medium;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .design_con .menu {
     width: 100%;
-    height: 1924px;
+    height: 2000px;
     position: relative;
 }
 .design_con .menu .num {
     position: absolute;
-    left: 526px;
-    top: 369px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 1440px;
+    top: 0;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
 }
 .design_con ul.menu_txt {
     position: absolute;
-    left: 526px;
-    top: 403px;
+    left: 1519px;
+    top: 65px;
 }
 .design_con ul.menu_txt li {
-    color: #3F3F3F;
+    color: #505050;
     font-size: 36px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: medium;
@@ -1013,45 +1028,17 @@ header .header_box ul.phone_img img {
     border-radius: 3px;
     z-index: 3;
 }
-/* .design_con .menu .main_img {
-    position: absolute;
-    left: 530px;
-    top: 200px;
-    z-index: 10;
-    transform: translateX(0);
-}
-.design_con .menu .main_img img {
-    width: 375px;
-    height: 810px;
-} */
 .design_con .menu .cate_img {
     position: absolute;
-    left: 530px;
-    top: 200px;
+    left: 529px;
+    top: 201px;
     z-index: 13;
-    /* opacity: 0;
-    visibility: hidden;
-    transform: translateX(-546px); */
 }
 .design_con .menu .cate_img img {
     width: 375px;
     height: 810px;
     border-radius: 40px;
-}  
-/* @-webkit-keyframes slideInLeft {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-546px);
-        -ms-transform: translateX(-546px);
-        transform: translateX(-546px);
-    }
-    
-    100% {
-        -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-        transform: translateX(0);
-    }
-} */
+}
 .design_con .menu .cate_hr {
     position: absolute;
     left: 937px;
@@ -1065,6 +1052,43 @@ header .header_box ul.phone_img img {
     height: 15px;
     background-color: #9EC4FD;
     border-radius: 50%;
+}
+.design_con .menu .search_img {
+    position: absolute;
+    left: 322px;
+    top: 381px;
+    z-index: 18;
+}
+.design_con .menu .search_img img {
+    width: 495px;
+    height: 75px;
+}
+.design_con .menu .search_cero {
+    position: absolute;
+    left: 376px;
+    top: 456px;
+    height: 123px;
+    border-width: 0;
+    width: .5vw;
+}
+.design_con .menu .search_cir {
+    position: absolute;
+    left: 370px;
+    top: 576px;
+    width: 15px;
+    height: 15px;
+    background-color: #9EC4FD;
+    border-radius: 50%;
+}
+.design_con .menu ul.search_txt {
+    position: absolute;
+    left: 235px;
+    top: 608px;
+}
+.design_con .menu ul.search_txt li {
+    color: #000;
+    font-size: 15px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .design_con ul.menu_txt3 {
     position: absolute;
@@ -1216,19 +1240,19 @@ header .header_box ul.phone_img img {
 }
 .design_con .main .num {
     position: absolute;
-    left: 526px;
-    top: 369px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 420px;
+    top: 20px;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
 }
 .design_con .main ul.main_txt {
     position: absolute;
-    left: 526px;
-    top: 403px;
+    left: 499px;
+    top: 80px;
 }
 .design_con .main ul.main_txt li {
-    color: #3F3F3F;
+    color: #505050;
     font-size: 36px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: medium;
@@ -1334,6 +1358,22 @@ header .header_box ul.phone_img img {
     width: 409px;
     height: 720px;
 } 
+.design_con .main .denim1_img {
+    position: absolute;
+    left: 530px;
+    top: 1947px;
+}
+.design_con .main .denim2_img {
+    position: absolute;
+    left: 815px;
+    top: 2196px;
+}
+.design_con .main .denim3_img {
+    position: absolute;
+    left: 530px;
+    top: 2700px;
+}
+
 .design_con .main .main01 {
     width: 100%;
 }
@@ -1474,13 +1514,13 @@ header .header_box ul.phone_img img {
 }
 .design_con .main .m5_hr {
     position: absolute;
-    left: 863px;
-    top: 2383px;
+    left: 950px;
+    top: 2296px;
 }
 .design_con .main .m5_cir {
     position: absolute;
-    left: 1075px;
-    top: 2377px;
+    left: 1161px;
+    top: 2289px;
     width: 15px;
     height: 15px;
     background-color: #9EC4FD;
@@ -1488,12 +1528,10 @@ header .header_box ul.phone_img img {
 }
 .design_con .main .main05 ul.txt05 {
     position: absolute;
-    left: 1103px;
-    top: 2346px;
+    left: 1190px;
+    top: 2252px;
 }
 .design_con .main .main05 ul.txt05 li {
-    width: 320px;
-    height: 93px;
     color: #000;
     font-size: 15px;
     font-family: 'IBM Plex Sans KR', sans-serif;
@@ -1532,42 +1570,55 @@ header .header_box ul.phone_img img {
     height: 1548px;
     position: relative;
 }
+.design_con .sub .bl_box {
+    position: absolute;
+    left: 0;
+    top: 280px;
+    width: 100%;
+    height: 720px;
+    background-color: #000;
+    border-radius: 30px;
+}
+.design_con .sub .sub_vd {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    z-index: 100;
+}
 .design_con .sub .num {
     position: absolute;
-    left: 526px;
-    top: 289px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 420px;
+    top: 20px;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
 }
-.design_con ul.sub_txt {
+.design_con ul.sub_txt1 {
     position: absolute;
-    left: 526px;
-    top: 323px;
+    left: 499px;
+    top: 85px;
 }
-.design_con ul.sub_txt li {
-    color: #3F3F3F;
+.design_con ul.sub_txt1 li {
+    color: #505050;
     font-size: 36px;
+    font-family: 'In', sans-serif;
+    font-weight: medium;
+}
+.design_con ul.sub_txt2 {
+    position: absolute;
+    left: 1500px;
+    top: 1100px;
+}
+.design_con ul.sub_txt2 li {
+    color: #3F3F3F;
+    font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: medium;
 }
-.design_con .sub_hr {
-    position: absolute;
-    left: 773px;
-    top: 1073px;
-}
-.design_con .sub .cero {
-    position: absolute;
-    left: 773px;
-    top: 1073px;
-    height: 48px;
-    border-width: 0;
-    width: .5vw;
-}
 .design_con .sub_cir {
     position: absolute;
-    left: 768px;
-    top: 1119px;
+    left: 1650px;
+    top: 1050px;
     width: 15px;
     height: 15px;
     background-color: #9EC4FD;
@@ -1585,8 +1636,8 @@ header .header_box ul.phone_img img {
 }
 .design_con ul.sub_txt2 {
     position: absolute;
-    left: 625px;
-    top: 1140px;
+    left: 1500px;
+    top: 1100px;
 }
 .design_con ul.sub_txt2 li {
     width: 330px;
@@ -1602,30 +1653,30 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .num {
     position: absolute;
-    left: 526px;
-    top: 30px;
-    color: rgba(96, 96, 96, 0.6);
-    font-size: 32px;
+    left: 420px;
+    top: 20px;
+    color: rgba(211, 211, 211, 0.6);
+    font-size: 128px;
     font-family: 'Inter', sans-serif;
 }
 .design_con .feedback ul.feed_txt {
     position: absolute;
-    left: 527px;
-    top: 62px;
+    left: 499px;
+    top: 80px;
 }
 .design_con .feedback ul.feed_txt li {
-    color: #3F3F3F;
+    color: #505050;
     font-size: 36px;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: medium;
 }
 
 .design_con .feedback .feed1_phone1 {
     position: absolute;
-    left: 517px;
-    top: 396px;
-    width: 405px;
-    height: 917px;
+    left: 525px;
+    top: 421px;
+    width: 399px;
+    height: 840px;
     background-color: #181818;
     border-radius: 60px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
@@ -1633,9 +1684,9 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed1_phone2 {
     position: absolute;
-    left: 673px;
-    top: 422px;
-    width: 62px;
+    left: 681px;
+    top: 443px;
+    width: 61px;
     height: 9px;
     background-color: #313131;
     border-radius: 20px;
@@ -1644,7 +1695,7 @@ header .header_box ul.phone_img img {
 .design_con .feedback .feed1_phone3 {
     position: absolute;
     left: 762px;
-    top: 421px;
+    top: 442px;
     width: 11px;
     height: 11px;
     background-color: #313131;
@@ -1653,18 +1704,18 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed1_alram {
     position: absolute;
-    left: 513px;
-    top: 525px;
+    left: 521px;
+    top: 539px;
     width: 14px;
-    height: 50px;
+    height: 46px;
     background-color: #181818;
     border-radius: 3px;
     z-index: 3;
 }
 .design_con .feedback .feed1_volup {
     position: absolute;
-    left: 513px;
-    top: 637px;
+    left: 521px;
+    top: 642px;
     width: 14px;
     height: 70px;
     background-color: #181818;
@@ -1673,8 +1724,8 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed1_voldown {
     position: absolute;
-    left: 513px;
-    top: 725px;
+    left: 521px;
+    top: 722px;
     width: 14px;
     height: 70px;
     background-color: #181818;
@@ -1683,8 +1734,8 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed1_hold {
     position: absolute;
-    left: 912px;
-    top: 707px;
+    left: 914px;
+    top: 706px;
     width: 14px;
     height: 87px;
     background-color: #181818;
@@ -1694,13 +1745,13 @@ header .header_box ul.phone_img img {
 
 .design_con .feedback .feed1 {
     position: absolute;
-    left: 532px;
-    top: 417px;
+    left: 537px;
+    top: 436px;
     z-index: 3;
 }
 .design_con .feedback .feed1 img {
     width: 375px;
-    height: 877px;
+    height: 810px;
 }
 .design_con .feed1_cir {
     position: absolute;
@@ -1726,13 +1777,13 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed2_hr {
     position: absolute;
-    left: 1361px;
-    top: 592px;
+    left: 1350px;
+    top: 580px;
 }
 .design_con .feed2_cir {
     position: absolute;
-    left: 1458px;
-    top: 586px;
+    left: 1447px;
+    top: 573px;
     width: 15px;
     height: 15px;
     background-color: #9EC4FD;
@@ -1753,7 +1804,7 @@ header .header_box ul.phone_img img {
 .design_con .feedback .feed2_box {
     position: absolute;
     left: 933px;
-    top: 569px;
+    top: 556px;
     width: 408px;
     height: 46px;
     background-color: #fff;
@@ -1781,12 +1832,12 @@ header .header_box ul.phone_img img {
 }
 .design_con .feedback .feed2 img {
     width: 375px;
-    height: 850px;
+    height: 810px;
 }
 .design_con .feedback ul.feed_txt4 {
     position: absolute;
     left: 1489px;
-    top: 575px;
+    top: 565px;
 }
 .design_con .feedback ul.feed_txt4 li {
     width: 385px;
@@ -1799,8 +1850,7 @@ header .header_box ul.phone_img img {
     width: 100%;
     height: 2540px;
     position: relative;
-    /* overflow: hidden; */
-    /* background-color: rgba(0, 0, 0, 0.85); */
+    background-color: rgba(32, 32, 32, 0.85);
 }
 .design_con .all_screens ul.all_txt {
     position: absolute;
@@ -1809,7 +1859,7 @@ header .header_box ul.phone_img img {
     z-index: 10;
 }
 .design_con .all_screens ul.all_txt li {
-    color: #3F3F3F;
+    color: #fff;
     font-size: 40px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: medium;
@@ -1838,6 +1888,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar1 {
@@ -1874,6 +1925,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar2 {
@@ -1910,6 +1962,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar3 {
@@ -1946,6 +1999,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar4 {
@@ -1991,6 +2045,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar5 {
@@ -2027,6 +2082,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar6 {
@@ -2063,6 +2119,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar7 {
@@ -2099,6 +2156,7 @@ header .header_box ul.phone_img img {
     width: 250px;
     height: 520px;
     background-color: #181818;
+    box-shadow: 10px 10px 10px #222;
     border-radius: 35px;
 }
 .design_con .all_screens .phone_bar8 {
@@ -2137,6 +2195,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .belog_blur {
     position: absolute;
@@ -2147,6 +2206,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .commu_blur {
     position: absolute;
@@ -2157,6 +2217,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .feed1_blur {
     position: absolute;
@@ -2167,6 +2228,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .belog2_blur {
     position: absolute;
@@ -2177,6 +2239,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .home_blur {
     position: absolute;
@@ -2187,6 +2250,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .cate_blur {
     position: absolute;
@@ -2197,6 +2261,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .design_con .all_screens .feed2_blur {
     position: absolute;
@@ -2207,6 +2272,7 @@ header .header_box ul.phone_img img {
     width: 233px;
     height: 502px;
     opacity: 0.3;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 .epilogue {
     width: 100%;

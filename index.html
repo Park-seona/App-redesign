@@ -19,8 +19,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/animate.css"/>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> -->
-    <script src="js/wow.min.js"></script>
 </head>
 <body>
     <script>
@@ -76,9 +74,10 @@
         </header>
         <div class="over_view">
             <h2>
-                <li><a href="#">OVER VIEW</a></li>
+                <li><a href="#">Overview</a></li>
             </h2>
-            <ul class="view_txt">
+            <div class="overview_cir"></div>
+            <ul class="view_txt" data-aos="fade-right" data-aos-duration="1200"> 
                 <li><a href="#">
                     BLACK UP은 간단하고 빠르게 주문할 수 있습니다.
                     <p>
@@ -222,44 +221,44 @@
                 </div>
             </div>
             <div class="login">
-                <!-- <h2 class="num">02</h2>
+                <h2 class="num">02</h2>
                 <ul class="login_txt">
                     <li>Login</li>
-                </ul>  -->
+                </ul> 
                 <div class="login_cir"></div>
                 <div class="belog_cir"></div>
                 <div class="background_gray"></div>
 
-                <div class="log_phone1"></div>
+                <!-- <div class="log_phone1"></div>
                 <div class="log_phone2"></div>
                 <div class="log_phone3"></div>
                 <div class="log_alram"></div>
                 <div class="log_volup"></div>
                 <div class="log_voldown"></div>
-                <div class="log_hold"></div>
+                <div class="log_hold"></div> -->
 
-                <ul class="black_img">
+                <!-- <ul class="black_img">
                     <li><a href="#">
                         <img src="images/intro.png" alt="회원">
                     </a></li>
-                </ul>
-                <div class="login_txt">
+                </ul> -->
+                <!-- <div class="login_txt">
                     <li>L&nbsp;&nbsp;O&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;N</li>
-                </div>
+                </div> -->
                 <ul class="login_img" data-aos="fade-up" data-aos-duration="1500">
                     <li><a href="#">
                         <img src="images/login(회원)22.png" alt="회원">
                     </a></li>
                 </ul>
-                <div class="belog_txt">
+                <!-- <div class="belog_txt">
                     <li>L&nbsp;&nbsp;O&nbsp;&nbsp;G&nbsp;&nbsp;O&nbsp;&nbsp;U&nbsp;&nbsp;T</li>
-                </div>
+                </div> -->
                 <ul class="belog_img" data-aos="fade-down" data-aos-duration="1500">
                     <li><a href="#">
                         <img src="images/Login(비회원).png" alt="비회원">
                     </a></li>
                 </ul>
-                <div class="login_ex" data-aos="fade-up" data-aos-duration="1500">
+                <div class="login_ex" data-aos="fade-right" data-aos-duration="1500">
                     <li>
                         한국인의 성격 급한 면에 초점을 두고 카카오톡으로 로그인 
                         <br>또는 회원가입할 경우 보다 쉽고 빠르게 가입할 수 있습니다. 
@@ -267,7 +266,7 @@
                         <br>인 및 가입을 할 수 있습니다. 
                     </li>
                 </div>
-                <div class="belog_ex" data-aos="fade-up" data-aos-duration="1500">
+                <div class="belog_ex" data-aos="fade-right" data-aos-duration="1500">
                     <li>
                         기존회원이 아닌 이용자들이 주문이 언제, 어떻게 오는지 
                         <br>실시간으로 빠르게 확인할 수 있습니다.   
@@ -275,13 +274,10 @@
                 </div>
             </div>
             <div class="menu">
-                <!-- <h2 class="num">03</h2>
+                <h2 class="num">03</h2>
                 <ul class="menu_txt">
                     <li>Menu</li>
-                </ul>  -->
-                <ul class="menu_txt2">
-                    <li>Category</li>
-                </ul>
+                </ul> 
 
                 <div class="cate_phone1"></div>
                 <div class="cate_phone2"></div>
@@ -292,21 +288,35 @@
                 <div class="cate_voldown"></div>
                 <div class="cate_hold"></div>
 
-                <!-- <div class="main_img">
+                <div class="cate_img">
                     <li><a href="#">
-                        <img src="images/main.png" alt="메인">
-                    </a></li>
-                </div> -->
-                <!-- <div class="cate_wrap wow fadeInLeft" data-wow-offset="10" data-wow-duration="1500"
-                style="visibility: visible;"> -->
-                <div class="cate_img" data-aos="slide-right" data-aos-duration="1500" data-aos-once="false">
-                        <img src="images/cate11.png" alt="카테고리">
+                        <img src="images/cate11.png" alt="카테">
                     </a></li>
                 </div>
-                <!-- </div> -->
+
                 <hr class="cate_hr" width="176px" style="border: dashed 2px #9EC4FD;">
+                <hr class="cate_hr" style="border-left: dashed 2px #9EC4FD;">
                 <div class="cate_cir"></div>
-                <ul class="menu_txt3">
+
+                <div class="search_img" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+                    <li><a href="#">
+                        <img src="images/search_over.png" alt="큰검색창">
+                    </a></li>
+                </div>
+                <hr class="search_cero" style="border-left: dashed 3px #9EC4FD;">
+                <div class="search_cir"></div>
+                <ul class="search_txt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <li>메인화면에 있는 검색창과 달리 카테고 
+                        <br>리 안에 있음으로써 원하는 메뉴를 선택
+                        <br>해 더욱 빠르고 쉽게 찾을 수 있는 기능
+                        <br>입니다.
+                    </li>
+                </ul>
+
+                <ul class="menu_txt2" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+                    <li>Category</li>
+                </ul>
+                <ul class="menu_txt3" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
                     <li>
                         세 줄 아이콘을 누르면 나오는 화면으로 전체 
                         <br>카테고리를 한눈에 볼 수 있습니다. 
@@ -330,10 +340,10 @@
                             <img src="images/commu22.png" alt="커뮤니티">
                         </a></li>
                     </ul>
-                    <ul class="commu_txt1">
+                    <ul class="commu_txt1" data-aos="fade-right" data-aos-duration="1500">
                         <li>Community</li>
                     </ul>
-                    <ul class="commu_txt2">
+                    <ul class="commu_txt2" data-aos="fade-right" data-aos-duration="1500">
                         <li>
                             구매자들과 소통할 수 있는 공간을 만들어 주문할 경우 
                             고민이 되거나 궁금한 점을 자유롭게 묻고 답할 수 있습니다.   
@@ -342,10 +352,10 @@
                 </div>
             </div>
             <div class="main">
-                <!-- <h2 class="num">04</h2>
+                <h2 class="num">04</h2>
                 <ul class="main_txt">
                     <li>Main page</li>
-                </ul>  -->
+                </ul> 
 
                 <div class="main_phone1"></div>
                 <div class="main_phone2"></div>
@@ -366,10 +376,25 @@
                         <img src="images/new22.png" alt="메인2">
                     </a></li>
                 </div>
+                <div class="denim1_img" data-aos="fade-down" data-aos-duration="1500">
+                    <li><a href="#">
+                        <img src="images/denim1.png" alt="데님1">
+                    </a></li>
+                </div>
+                <div class="denim2_img" data-aos="fade-down" data-aos-duration="1500">
+                    <li><a href="#">
+                        <img src="images/denim.png" alt="데님2">
+                    </a></li>
+                </div>
+                <div class="denim3_img" data-aos="fade-down" data-aos-duration="1500">
+                    <li><a href="#">
+                        <img src="images/up to.png" alt="데님3">
+                    </a></li>
+                </div>
                 <div class="main01">
                     <hr class="m1_hr" width="173px" style="border: dashed 2px #9EC4FD;">
                     <div class="m1_cir"></div>
-                    <ul class="txt01">
+                    <ul class="txt01" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
                     <li>
                         최근에 업데이트 되는 상품들을 
                         쉽게 접할 수 있습니다.
@@ -379,7 +404,7 @@
                 <div class="main02">
                     <hr class="m2_hr" width="211px" style="border: dashed 2px #9EC4FD;">
                     <div class="m2_cir"></div>
-                    <ul class="txt02">
+                    <ul class="txt02" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
                     <li>
                         주간별 베스트 상품들을 보여주며 인기 상품들을 쉽게 파악할 수 있도록 하였습니다.
                     </li>
@@ -388,7 +413,7 @@
                 <div class="main03">
                     <hr class="m3_hr" width="173px" style="border: dashed 2px #9EC4FD;">
                     <div class="m3_cir"></div>
-                    <ul class="txt03">
+                    <ul class="txt03" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="900">
                     <li>
                         가로슬라이드 형식의 신상품들을 보여주며 새로운 트렌드를 쉽게 파악할 수 있도록 하였습니다.
                     </li>
@@ -407,7 +432,7 @@
                 <div class="main04">
                     <hr class="m4_hr" width="239px" style="border: dashed 2px #9EC4FD;">
                     <div class="m4_cir"></div>
-                    <ul class="txt04">
+                    <ul class="txt04" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1100">
                     <li>
                         브랜드의 계절별 컬렉션을 배치하여 계절에 따른 
                         인기트렌드 상품들을 쉽게 파악할 수있게 하였습니다.
@@ -417,19 +442,19 @@
                 <div class="main05">
                     <hr class="m5_hr" width="211px" style="border: dashed 2px #9EC4FD;">
                     <div class="m5_cir"></div>
-                    <ul class="txt05">
+                    <ul class="txt05" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1300">
                     <li>
-                        버튼을 여러번 눌러 들어가는 불편함을 면하고
-                        메인화면에서 한눈에 보기 쉽게 배열하였으며 
-                        바지 카테고리에 넣지 않고 따로 데님으로 분류하여 
-                        보기 쉽게 배치하였습니다. 
+                        버튼을 여러번 눌러 들어가는 불편함을 면하고 메인화
+                        <br>면에서 한눈에 보기 쉽게 배열하였으며 바지 카테고리
+                        <br>에 넣지 않고 따로 데님으로 분류하여 보기 쉽게 배치
+                        <br>하였습니다. 
                     </li>
                     </ul>
                 </div>
                 <div class="main06">
                     <hr class="m6_hr" width="172px" style="border: dashed 2px #9EC4FD;">
                     <div class="m6_cir"></div>
-                    <ul class="txt06">
+                    <ul class="txt06" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1600">
                     <li>
                         구매자들의 혜택과 브랜드의 자사품, 재입고된 상품들을 
                         쉽게 볼 수 있게 하여 보다 쉽고 빠르게 정보를 습득할 수 있도록 하였습니다.
@@ -439,24 +464,18 @@
             </div>
             <div class="sub">
                 <h2 class="num">05</h2>
-                <ul class="sub_txt">
+                <ul class="sub_txt1">
                     <li>Sub page</li>
                 </ul> 
-                <hr class="sub_hr" width="256px" style="border-top: dashed 3px #9EC4FD;">
-                <hr class="cero" style="border-left: dashed 3px #9EC4FD;">
+                <div class="bl_box"></div>
+                <video class="sub_vd" width="1200" heihgt="1000" src="images/sub.mp4" controls muted autoplay loop></video>
                 <div class="sub_cir"></div>
-                <div class="sub_img">
-                    <li><a href="#">
-                        <img src="images/sub page.png" alt="서브이미지">
-                    </a></li>
-                </div>
-                <ul class="sub_txt2">
+                <ul class="sub_txt2" data-aos="fade-up" data-aos-duration="1500">
                     <li>
                         신상품이 매주 업데이트가 되며 각각의 상품들이
-                        4, 9, 16개씩 화면에 정렬되어 보다 쉽게 볼 수 있
-                        도록 하였습니다. 또한 재입고된 상품들을 한눈에 
-                        알아볼 수 있도록 폰트색을 다르게 하여 상품명 하
-                        단에 배치하였습니다.
+                        <br>4, 9, 16개씩 화면에 정렬되어 보다 쉽게 볼 수 있
+                        <br>도록 하였습니다. 또한 재입고된 상품들을 한눈에 
+                        <br>알아볼 수 있도록 폰트색을 다르게 하여 상품명 하단에 배치하였습니다.
                     </li>
                 </ul>
             </div>
@@ -487,7 +506,7 @@
                 </ul>
                 <hr class="feed2_hr" width="91px" style="border-top: dashed 3px #9EC4FD;">
                 <div class="feed2_cir"></div>
-                <ul class="feed_txt3" data-aos="fade-up" data-aos-duration="1500">
+                <ul class="feed_txt3" data-aos="fade-right" data-aos-duration="1500">
                     <li> 
                         키, 몸무게를 내 사이즈에 맞게 입력 후 인공지능 AI 분석으로 
                         빠르게 찾을 수 있습니다.
@@ -601,7 +620,7 @@
                 </div>
                 <div class="belog_blur">
                     <li><a href="#">
-                        <img src="images/belog.png" alt="비회원투명">
+                        <img src="images/logout.png" alt="비회원투명">
                     </a></li>
                 </div>
                 <div class="commu_blur">
@@ -616,13 +635,13 @@
                 </div>
                 <div class="belog2_blur">
                     <li><a href="#">
-                        <img src="images/belog.png" alt="비회원2투명">
+                        <img src="images/logout.png" alt="비회원2투명">
                     </a></li>
                 </div>
 
                 <div class="home_blur">
                     <li><a href="#">
-                        <img src="images/home.png" alt="홈투명">
+                        <img src="images/main.png" alt="홈투명">
                     </a></li>
                 </div>
                 <div class="cate_blur">
@@ -643,7 +662,7 @@
             </h2>
             <div class="epil_cir"></div>
             <hr width="1076px" height="7px" color="#D4E5FF">
-            <ul class="epil_txt">
+            <ul class="epil_txt" data-aos="fade-up" data-aos-duration="1500">
                 <li>
                     저는 처음에 UI / UX 디자인에 대해 무지했습니다.
                     하지만 이번에 앱 리뉴얼 디자인 프로젝트를 시행하면서 어떻게 구체적인 기획을 해야 하고 그에 맞는 디자인을 직접 만들면서 다양한 레퍼런스를 찾아보고 모바일 디자인에 
