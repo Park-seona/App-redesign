@@ -35,7 +35,7 @@ header .header_box {
 }
 header .header_box ul.blue_img {
     position: absolute;
-    width: 920px;
+    width: 1920px;
     height: 800px;
     background-color: #000;
 }
@@ -733,28 +733,6 @@ header .header_box ul.phone_img img {
     border-radius: 50%;
     z-index: 15;
 }
-/* .design_con .login ul.login_txt2 {
-    position: absolute;
-    left: 727px;
-    top: 680px;
-}
-.design_con .login ul.login_txt2 li {
-    color: #000;
-    font-size: 32px;
-    font-family: 'Inter', sans-serif;
-}
-.design_con .login ul.login_txt3 {
-    position: absolute;
-    left: 574px;
-    top: 735px;
-}
-.design_con .login ul.login_txt3 li {
-    width: 397px;
-    height: 92px;
-    color: #000;
-    font-size: 15px;
-    font-family: 'IBM Plex Sans KR', sans-serif;
-} */
 .design_con .login .background_gray {
     position: absolute;
     left: 0;
@@ -1462,24 +1440,6 @@ header .header_box ul.phone_img img {
     font-size: 15px;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
-/* .design_con .main .main03_img1 {
-    position: absolute;
-    left: 818px;
-    top: 1306px;
-}
-.design_con .main .main03_img1 img {
-    width: 120px;
-    height: 194px;
-}
-.design_con .main .main03_img2 {
-    position: absolute;
-    left: 948px;
-    top: 1305px;
-}
-.design_con .main .main03_img2 img {
-    width: 120px;
-    height: 194px;
-} */
 .design_con .main .main04 {
     width: 100%;
 }
