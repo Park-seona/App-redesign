@@ -51,11 +51,6 @@ header .header_box ul.black li {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
-/* header .header_box .black {
-    position: absolute;
-    left: 344px;
-    top: 238px;
-} */
 header .header_box .u1_line {
     position: absolute;
     left: 641px;
@@ -518,7 +513,6 @@ header .header_box ul.phone_img img {
 .app_typo ul.black2 li {
     color: #000;
     font-size: 36px;
-    /* font-family: 'inter'; */
 }
 .app_typo .up2_hr {
     position: absolute;
@@ -613,12 +607,12 @@ header .header_box ul.phone_img img {
 }
 .design_con {
     width: 100%;
-    height: 15000px;
+    height: auto;
     margin-top: 180px;
     background-color: #fff;
 }
 .design_con .intro {
-    width: 100%;
+    width: auto;
     height: 1483px;
     position: relative;
 }
@@ -688,7 +682,7 @@ header .header_box ul.phone_img img {
     height: 579px;
 }
 .design_con .login {
-    width: 100%;
+    width: auto;
     height: 1924px;
     position: relative;
 }
@@ -2141,6 +2135,8 @@ header .header_box ul.phone_img img {
     position: absolute;
     left: 1287px;
     top: 1759px;
+    width: auto;
+    height: auto;
 }
 .design_con .all_screens .sub img {
     width: 233px;
